@@ -2,7 +2,7 @@ dados = {
 'nomes':[input('Nome:'), input('Nome: ')],
 'idades':[int(input('Idade: ')), int(input('Idade: '))],
 'quartos':['','S','D','L'],
-'valores':[0,100,150,250]   
+'valores':[0,100.0,150.0,250.0]   
 
 }
 
@@ -18,5 +18,6 @@ valor = dados['valores'][id]
 calculo = quant * valor
 
 print(' Hospedagem R$', round(float(calculo),2))
+
 
 
